@@ -25,9 +25,9 @@ import os
 SECRET_KEY = 'django-insecure-wms(6f9cx$#w6mcy)n8v(!f&&_u!%zsqq_h)8j*k-rl1sopxbf'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ["todolist-diab.onrender.com"]
+ALLOWED_HOSTS = ["todolist-diab.onrender.com" ,"127.0.0.1","localhost"]
 
 
 # Application definition
