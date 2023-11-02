@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom"
-import AuthContext from "../context/AuthContext"
-import TaskContext from "../context/TaskContext"
+import AuthContext from "../context/AuthContext.jsx"
+import TaskContext from "../context/TaskContext.jsx"
 import { useContext, useEffect, useState} from "react"
-import AddtaskCard from "../components/AddtaskCard"
+import AddtaskCard from "../components/AddtaskCard.jsx"
 
 
 
