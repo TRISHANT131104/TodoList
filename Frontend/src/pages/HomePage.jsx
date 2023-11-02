@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 import AuthContext from "../context/AuthContext.jsx"
 import TaskContext from "../context/TaskContext.jsx"
 import { useContext, useEffect, useState} from "react"
-import AddtaskCard from "../components/AddtaskCard.jsx"
+import AddTaskCard from "../components/AddTaskCard.jsx"
 
 
 
@@ -56,7 +56,7 @@ const HomePage = () => {
         <Link onClick={handleToggle} className="text-white m-2 bg-black hover:bg-green-400 focus:ring-4 focus:outline-none focus:ring-green-500 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0">Add New Task</Link>
         <Link onClick={deleteAllTasks} className="text-white m-2 bg-black hover:bg-green-400 focus:ring-4 focus:outline-none focus:ring-green-500 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0">Delete all Tasks</Link>
       </div>
-      {isToggled ? <AddtaskCard/> : <p></p>}
+      {isToggled ? <AddTaskCard/> : <p></p>}
       </div> : <p className="text-4xl text-red-500 font-semibold">Please Login</p>}
 
       </div>
